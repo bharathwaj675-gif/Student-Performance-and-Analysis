@@ -2,8 +2,11 @@ import streamlit as st
 import pickle
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
-with open(r"C:\Users\BHARATHWAJ\lrml.pkl", "rb") as f:
+print((os.listdir("."))
+
+with open("./lrml.pkl", "rb") as f:
     lr = pickle.load(f)
 
 st.title("STUDENT PERFORMANCE ANALYSIS")  #bulid the app
