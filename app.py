@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-print((os.listdir("."))
+print(os.listdir("."))
 
 with open("./lrml.pkl", "rb") as f:
     lr = pickle.load(f)
