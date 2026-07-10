@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 # Load Model
-with open(r"C:\Users\BHARATHWAJ\lrml.pkl", "rb") as f:
+with open(r"lrml.pkl", "rb") as f:
     lr = pickle.load(f)
 
 
